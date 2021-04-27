@@ -15,13 +15,14 @@ Practice on:
 Steps (for future me to remember):
 
 On CLI (working directory):
-    - `python3 -m venv venv && . venv/bin/activate` to set up virtual environment
-    - `pip3 install flask flask-sqlalchemy` to install packages in your venv
-    - `mkdir app && cd app` to make and move to app directory
-    - `touch app.py` to create app.py file in /app
-    - In /app `mkdir static/css` for css files and `mkdir templates` for html files
-    - When done `pip freeze > requirements.txt` to create .txt file - place in root directory
-    - `touch Dockerfile` in root directory too
+
+- `python3 -m venv venv && . venv/bin/activate` to set up virtual environment
+- `pip3 install flask flask-sqlalchemy` to install packages in your venv
+- `mkdir app && cd app` to make and move to app directory
+- `touch app.py` to create app.py file in /app
+- In /app `mkdir static/css` for css files and `mkdir templates` for html files
+- When done `pip freeze > requirements.txt` to create .txt file - place in root directory
+- `touch Dockerfile` in root directory too
 
 ## Run in Dockerized container
 

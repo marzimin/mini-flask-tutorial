@@ -1,0 +1,6 @@
+
+# Ignore cache files
+.app/__pycache__/app.cpython-38.pyc
+
+# Ignore IDE specific files
+.vscode/
