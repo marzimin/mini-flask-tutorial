@@ -16,7 +16,8 @@ Steps (for future me to remember):
 
 On CLI (working directory):
 
-- `python3 -m venv venv && . venv/bin/activate` to set up virtual environment
+- `python3 -m venv venv && . venv/bin/activate` to set up & activate virtual environment
+- `source ./venv/bin/activate` to reactivate in future
 - `pip3 install flask flask-sqlalchemy` to install packages in your venv
 - `mkdir app && cd app` to make and move to app directory
 - `touch app.py` to create app.py file in /app
