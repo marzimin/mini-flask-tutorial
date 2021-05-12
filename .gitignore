@@ -1,7 +1,0 @@
-
-# Ignore cache files
-__pycache__/
-**/.DS_Store
-
-# Ignore IDE specific files
-.vscode/
